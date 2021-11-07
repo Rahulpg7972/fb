@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-05T15:13:48 IST" name="AutomationSuite" finished-at="2021-11-05T15:14:48 IST" duration-ms="60025">
+    <groups>
+    </groups>
+    <test started-at="2021-11-05T15:13:48 IST" name="ChromeTest" finished-at="2021-11-05T15:14:07 IST" duration-ms="19652">
+      <class name="TestPakage.fbTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:13:48 IST" name="launchBrowser" finished-at="2021-11-05T15:13:50 IST" duration-ms="2778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:13:50 IST" name="launchApplication" finished-at="2021-11-05T15:13:52 IST" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:13:52 IST" name="createObjects" finished-at="2021-11-05T15:13:52 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjects -->
+        <test-method signature="testOfloginFuctionality()[pri:1, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:13:52 IST" name="testOfloginFuctionality" finished-at="2021-11-05T15:13:59 IST" duration-ms="6484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfloginFuctionality -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:13:59 IST" name="logoutAccount" finished-at="2021-11-05T15:13:59 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOfloginFuctionality status=SUCCESS method=fbTest.testOfloginFuctionality()[pri:1, instance:TestPakage.fbTest@4d5b6aac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:13:59 IST" name="createObjects" finished-at="2021-11-05T15:13:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjects -->
+        <test-method signature="testOfMarketButton()[pri:2, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:13:59 IST" name="testOfMarketButton" finished-at="2021-11-05T15:14:02 IST" duration-ms="3566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfMarketButton -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:14:02 IST" name="logoutAccount" finished-at="2021-11-05T15:14:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOfMarketButton status=SUCCESS method=fbTest.testOfMarketButton()[pri:2, instance:TestPakage.fbTest@4d5b6aac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:14:02 IST" name="createObjects" finished-at="2021-11-05T15:14:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjects -->
+        <test-method signature="testOflogOutFunctionality()[pri:3, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:14:02 IST" name="testOflogOutFunctionality" finished-at="2021-11-05T15:14:07 IST" duration-ms="4872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOflogOutFunctionality -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:14:07 IST" name="logoutAccount" finished-at="2021-11-05T15:14:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOflogOutFunctionality status=SUCCESS method=fbTest.testOflogOutFunctionality()[pri:3, instance:TestPakage.fbTest@4d5b6aac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="clearAllPomObjects()[pri:0, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:14:07 IST" name="clearAllPomObjects" finished-at="2021-11-05T15:14:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearAllPomObjects -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPakage.fbTest@4d5b6aac]" started-at="2021-11-05T15:14:07 IST" name="closeBrowser" finished-at="2021-11-05T15:14:07 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPakage.fbTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2021-11-05T15:14:07 IST" name="firefoxTest" finished-at="2021-11-05T15:14:29 IST" duration-ms="21719">
+      <class name="TestPakage.fbTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:07 IST" name="launchBrowser" finished-at="2021-11-05T15:14:13 IST" duration-ms="5764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:13 IST" name="launchApplication" finished-at="2021-11-05T15:14:16 IST" duration-ms="2556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:16 IST" name="createObjects" finished-at="2021-11-05T15:14:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjects -->
+        <test-method signature="testOfloginFuctionality()[pri:1, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:16 IST" name="testOfloginFuctionality" finished-at="2021-11-05T15:14:20 IST" duration-ms="4254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfloginFuctionality -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:20 IST" name="logoutAccount" finished-at="2021-11-05T15:14:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOfloginFuctionality status=SUCCESS method=fbTest.testOfloginFuctionality()[pri:1, instance:TestPakage.fbTest@5ba3f27a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:20 IST" name="createObjects" finished-at="2021-11-05T15:14:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjects -->
+        <test-method signature="testOfMarketButton()[pri:2, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:20 IST" name="testOfMarketButton" finished-at="2021-11-05T15:14:24 IST" duration-ms="3684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfMarketButton -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:24 IST" name="logoutAccount" finished-at="2021-11-05T15:14:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOfMarketButton status=SUCCESS method=fbTest.testOfMarketButton()[pri:2, instance:TestPakage.fbTest@5ba3f27a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:24 IST" name="createObjects" finished-at="2021-11-05T15:14:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjects -->
+        <test-method signature="testOflogOutFunctionality()[pri:3, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:24 IST" name="testOflogOutFunctionality" finished-at="2021-11-05T15:14:28 IST" duration-ms="3920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOflogOutFunctionality -->
+        <test-method is-config="true" signature="clearAllPomObjects()[pri:0, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:28 IST" name="clearAllPomObjects" finished-at="2021-11-05T15:14:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearAllPomObjects -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:28 IST" name="logoutAccount" finished-at="2021-11-05T15:14:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOflogOutFunctionality status=SUCCESS method=fbTest.testOflogOutFunctionality()[pri:3, instance:TestPakage.fbTest@5ba3f27a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPakage.fbTest@5ba3f27a]" started-at="2021-11-05T15:14:28 IST" name="closeBrowser" finished-at="2021-11-05T15:14:29 IST" duration-ms="1525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPakage.fbTest -->
+    </test> <!-- firefoxTest -->
+    <test started-at="2021-11-05T15:14:29 IST" name="EdgeTest" finished-at="2021-11-05T15:14:48 IST" duration-ms="18587">
+      <class name="TestPakage.fbTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:29 IST" name="launchBrowser" finished-at="2021-11-05T15:14:32 IST" duration-ms="3111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:32 IST" name="launchApplication" finished-at="2021-11-05T15:14:34 IST" duration-ms="1911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:34 IST" name="createObjects" finished-at="2021-11-05T15:14:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjects -->
+        <test-method signature="testOfloginFuctionality()[pri:1, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:34 IST" name="testOfloginFuctionality" finished-at="2021-11-05T15:14:39 IST" duration-ms="4621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfloginFuctionality -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:39 IST" name="logoutAccount" finished-at="2021-11-05T15:14:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOfloginFuctionality status=SUCCESS method=fbTest.testOfloginFuctionality()[pri:1, instance:TestPakage.fbTest@4f2b503c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:39 IST" name="createObjects" finished-at="2021-11-05T15:14:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjects -->
+        <test-method signature="testOfMarketButton()[pri:2, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:39 IST" name="testOfMarketButton" finished-at="2021-11-05T15:14:45 IST" duration-ms="6447" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql lr9zc1uh jq4qci2q a3bd9o3v ekzkrbhg oo9gr5id">...</span> is not clickable at point (97, 226). Other element would receive the click: <div class="iqfcb0g7 tojvnm2t a6sixzi8 k5wvi7nf q3lfd5jv pk4s997a bipmatt0 cebpdrjk qowsmv63 owwhemhu dp1hu0rb dhp61c6y l9j0dhe7 iyyx5f41 a8s20v7p" tabindex="-1">...</div>
+  (Session info: MicrosoftEdge=95.0.1020.40)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1JPKL76', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 95.0.1020.40, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51250}, msedge: {msedgedriverVersion: 95.0.1020.40 (1f61f1c45c1e4..., userDataDir: C:\Users\Myhp\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7de40e7718eddb7d095a87a39fb4d05a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql lr9zc1uh jq4qci2q a3bd9o3v ekzkrbhg oo9gr5id">...</span> is not clickable at point (97, 226). Other element would receive the click: <div class="iqfcb0g7 tojvnm2t a6sixzi8 k5wvi7nf q3lfd5jv pk4s997a bipmatt0 cebpdrjk qowsmv63 owwhemhu dp1hu0rb dhp61c6y l9j0dhe7 iyyx5f41 a8s20v7p" tabindex="-1">...</div>
+  (Session info: MicrosoftEdge=95.0.1020.40)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1JPKL76', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 95.0.1020.40, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51250}, msedge: {msedgedriverVersion: 95.0.1020.40 (1f61f1c45c1e4..., userDataDir: C:\Users\Myhp\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7de40e7718eddb7d095a87a39fb4d05a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at PomClasses.fbHomepagePOM.clicknotification(fbHomepagePOM.java:39)
+at TestPakage.fbTest.testOfMarketButton(fbTest.java:99)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfMarketButton -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:45 IST" name="logoutAccount" finished-at="2021-11-05T15:14:46 IST" duration-ms="715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOfMarketButton status=FAILURE method=fbTest.testOfMarketButton()[pri:2, instance:TestPakage.fbTest@4f2b503c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:46 IST" name="createObjects" finished-at="2021-11-05T15:14:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjects -->
+        <test-method signature="testOflogOutFunctionality()[pri:3, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:46 IST" name="testOflogOutFunctionality" finished-at="2021-11-05T15:14:47 IST" duration-ms="1126" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <i data-visualcompletion="css-img" class="hu5pjgll lzf7d6o1" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/xfa1vLdJvdP.png');background-position:0 -495px;background-size:auto;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i> is not clickable at point (1313, 28). Other element would receive the click: <div class="iqfcb0g7 tojvnm2t a6sixzi8 k5wvi7nf q3lfd5jv pk4s997a bipmatt0 cebpdrjk qowsmv63 owwhemhu dp1hu0rb dhp61c6y l9j0dhe7 iyyx5f41 a8s20v7p" tabindex="-1">...</div>
+  (Session info: MicrosoftEdge=95.0.1020.40)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1JPKL76', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 95.0.1020.40, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51250}, msedge: {msedgedriverVersion: 95.0.1020.40 (1f61f1c45c1e4..., userDataDir: C:\Users\Myhp\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7de40e7718eddb7d095a87a39fb4d05a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i data-visualcompletion="css-img" class="hu5pjgll lzf7d6o1" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/xfa1vLdJvdP.png');background-position:0 -495px;background-size:auto;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i> is not clickable at point (1313, 28). Other element would receive the click: <div class="iqfcb0g7 tojvnm2t a6sixzi8 k5wvi7nf q3lfd5jv pk4s997a bipmatt0 cebpdrjk qowsmv63 owwhemhu dp1hu0rb dhp61c6y l9j0dhe7 iyyx5f41 a8s20v7p" tabindex="-1">...</div>
+  (Session info: MicrosoftEdge=95.0.1020.40)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1JPKL76', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 95.0.1020.40, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51250}, msedge: {msedgedriverVersion: 95.0.1020.40 (1f61f1c45c1e4..., userDataDir: C:\Users\Myhp\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7de40e7718eddb7d095a87a39fb4d05a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at PomClasses.fbHomepagePOM.clickAccount(fbHomepagePOM.java:44)
+at TestPakage.fbTest.testOflogOutFunctionality(fbTest.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOflogOutFunctionality -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:47 IST" name="logoutAccount" finished-at="2021-11-05T15:14:48 IST" duration-ms="446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOflogOutFunctionality status=FAILURE method=fbTest.testOflogOutFunctionality()[pri:3, instance:TestPakage.fbTest@4f2b503c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:48 IST" name="closeBrowser" finished-at="2021-11-05T15:14:48 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="clearAllPomObjects()[pri:0, instance:TestPakage.fbTest@4f2b503c]" started-at="2021-11-05T15:14:48 IST" name="clearAllPomObjects" finished-at="2021-11-05T15:14:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearAllPomObjects -->
+      </class> <!-- TestPakage.fbTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>

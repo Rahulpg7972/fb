@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [fbLogin by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestPakage(failed)">
+    <classes>
+      <class name="TestPakage.HpTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="createObjects"/>
+          <include name="launchBrowser"/>
+          <include name="testOfMarketButton"/>
+          <include name="testOfloginFuctionality"/>
+          <include name="clearAllPomObjects"/>
+          <include name="testOflogOutFunctionality"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- TestPakage.HpTest -->
+      <class name="TestPakage.fbTest">
+        <methods>
+          <include name="testOfMarketButton"/>
+          <include name="launchBrowser"/>
+          <include name="testOfloginFuctionality"/>
+          <include name="clearAllPomObjects"/>
+          <include name="testOflogOutFunctionality"/>
+          <include name="closeBrowser"/>
+          <include name="createObjects"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- TestPakage.fbTest -->
+    </classes>
+  </test> <!-- TestPakage(failed) -->
+</suite> <!-- Failed suite [fbLogin by packages] -->
